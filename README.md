@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+	<title>자바스크립트 예제</title>
 </head>
 <body>
-  <p>Hello, World!</p>
+  <h1>자바스크립트 예제</h1>
+  <p>자바스크립트로 작성된 메시지:</p>
+  <script>
+  	document.write("안녕하세요! 자바스크립트 예제입니다.");
+  </script>
 </body>
 </html>
