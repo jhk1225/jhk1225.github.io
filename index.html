@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>자바스크립트 예제</title>
-</head>
-<body>
-  <h1>자바스크립트 예제</h1>
-  <p>자바스크립트로 작성된 메시지:</p>
-  <script>
-  	document.write("안녕하세요! 자바스크립트 예제입니다.");
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>입력받은 텍스트 출력하기</title>
+  </head>
+  <body>
+    <form>
+      <label for="user-input">텍스트 입력:</label>
+      <input type="text" id="user-input" name="user-input"><br><br>
+      <button type="button" onclick="displayText()">텍스트 출력</button>
+    </form>
+    <br>
+    <div id="output"></div>
+    
+    <script>
+      function displayText() {
+        var userInput = document.getElementById("user-input").value;
+        document.getElementById("output").innerHTML = userInput;
+      }
+    </script>
+  </body>
 </html>
